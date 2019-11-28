@@ -19,6 +19,14 @@ gradle tasks --all
 grade greeting
 ```
 
+### Turning into a "standalone", distributable plugin/task
+
+To turn the code in `buildSrc/` into a standalone, distributable Gradle Plugin
+or Task, move the contents of `buildSrc/` to their own `src/` or their own
+project directory. Then compile it into a JAR and push it to Maven, or whatever
+repository you're using. Then use Gradle to pull that dependency and run your
+custom Task or Plugin.
+
 ## Development and Testing
 
 None yet.
