@@ -1,5 +1,0 @@
-task greeting(type: org.gradle.CustomTask) {
-  group = "Custom Gradle Tasks"
-  description = "A custom gradle task using buildSrc/"
-  greeting = 'Greetings from outside the class'
-}

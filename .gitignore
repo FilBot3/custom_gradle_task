@@ -1,8 +1,4 @@
-## Vim Files
-*~
-*.sw[a-z0-9]
-
-## Java Files
+## Java
 # Compiled class file
 *.class
 
@@ -27,9 +23,12 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-## Gradle files
+## Gradle
+# Ignore Gradle project-specific cache directory
 .gradle
-build/
+
+# Ignore Gradle build output directory
+build
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -42,3 +41,7 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+
+## Vim
+*~
+*.sw[a-z0-9]

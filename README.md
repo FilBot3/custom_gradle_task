@@ -12,11 +12,14 @@
 Clone the Gradle Project locally. Execute `gradle tasks --all`. This will compile
 the Custom Task Library and include it in your classpath.
 
+We're using the Gradle Wrapper. This was created to help make it so you don't have
+to have Gradle installed and it handles it for you.
+
 ## Usage
 
 ```bash
-gradle tasks --all
-grade greeting
+gradlew tasks --all
+gradew greeting
 ```
 
 ### Turning into a "standalone", distributable plugin/task
